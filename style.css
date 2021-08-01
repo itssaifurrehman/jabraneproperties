@@ -1538,6 +1538,8 @@ figure img {
     position: relative;
     top: 270px;
     right: 0;
+    text-align: end;
+
 }
 
 @media screen and (max-width: 990px) {
@@ -1556,6 +1558,8 @@ figure img {
     line-height: 1;
     font-weight: 400;
     float: right;
+    text-shadow: 11px 9px 11px #000000;
+
 }
 
 @media screen and (max-width: 990px) {
@@ -1988,7 +1992,7 @@ figure img {
 }
 
 .subscribe input {
-    padding: 2% 19% 2% 4%;
+    padding: 2% 19% 2% 3%;
     color: black;
     margin-right: 10px;
     width: auto;
@@ -2128,7 +2132,12 @@ width: 50%;
 
 .check1 {
     color: white;
-    font-size: 13px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.checkProp {
+    color: white;
+    font-size: 14px;
 }
 
 .check2 {
@@ -2191,7 +2200,7 @@ width: 50%;
     font-size: 18px;
     font-size: 1.54rem;
     margin: 0;
-    color: inherit;
+    color: grey;
     font-family: userDefinedFontsSitka;
 }
 
@@ -2317,7 +2326,7 @@ width: 50%;
     color: white;
     border-radius: 5px;
     border: none;
-    padding: 8px 134px 7px 0px;
+    padding: 8px 80px 7px 0px;
     text-transform: uppercase;
     font-weight: 300;
     margin-left: 3%;
@@ -2344,9 +2353,9 @@ width: 50%;
 
 .btnImage {
     width: 20px;
-    margin-right: 0px;
+    margin-right: 3px;
     margin-bottom: 1px;
-    margin-left: 50px;
+    margin-left: 75px;
 }
 
 .mainPhone {
@@ -2383,11 +2392,11 @@ width: 50%;
 
 .section-titleCustomer {
     margin: 0;
-    margin-left: 20%;
+    margin-left: 37%;
     position: relative;
     padding-top: 70px;
     padding-bottom: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-size: 28px;
     font-size: 2.4 rem;
     font-weight: bold;
@@ -2401,7 +2410,7 @@ width: 50%;
     position: absolute;
     bottom: 0;
     left: 0;
-    right: 30%;
+    right: 60%;
     margin: auto;
 }
 
@@ -2507,6 +2516,8 @@ width: 50%;
         line-height: 1;
         font-weight: 400;
         float: right;
+        text-shadow: 11px 9px 11px #000000;
+
     }
 }
 

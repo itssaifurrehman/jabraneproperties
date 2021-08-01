@@ -54,7 +54,7 @@
 
         <main class="main-content">
             <div class="hero">
-                <div class="hero-half-background" data-bg-image="images/mainImage.jpg"></div>
+                <div class="hero-half-background" data-bg-image="images/mainImage1.jpg"></div>
                 <div class="container">
                     <div class="row">
                         <div class="col-md-5">
@@ -71,7 +71,7 @@
                                     your houses.
                                 </p>
 
-                                <form action="sendEmail.php" method="POST">
+                                <form action="sendEmail.php" method="POST" id="submitForm">
                                     <div class="field">
                                         <label for="#">FULL NAME</label>
                                         <input type="text" name="name" required>
@@ -158,7 +158,7 @@
                 </div>
                 <div class="bgcolor" id="two">
                     <header bg-dark>
-                        <h2 class="colorSelect">Portfolio of Work</h2>
+                        <h2 class="colorSelect">PORTFOLIO</h2>
                     </header>
 
                     <div class="site-portfolio">
@@ -211,16 +211,16 @@
                 </div>
                 <div>
                     <div class="container">
-                        <h2 class="section-titleCustomer">Look what our customers have to say about our work</h2>
+                        <h2 class="section-titleCustomer">HAPPY CUSTOMERS</h2>
 
                         <div class="row">
                             <div class="col-md-12">
                                 <div id="testimonial-slider" class="owl-carousel">
 
                                     <div class="testimonial">
-                                        <div class="pic">
+                                       <!-- <div class="pic">
                                             <img src="uploads/rev4.png" alt="">
-                                        </div>
+                                        </div>-->
                                         <h3 class="title">Thomas Robert</h3>
                                         <p class="description">
                                             I was recommended Jabrane Properties by a friend. This was the best choice I had ever made. They took my run down basement and turned it into amazing two bedroom in-law suite. Aisha was very down to earth and came up with some amazing ideas which I wouldn’t
@@ -232,9 +232,9 @@
                                     </div>
 
                                     <div class="testimonial">
-                                        <div class="pic">
+                                       <!-- <div class="pic">
                                             <img src="uploads/rev2.png" alt="">
-                                        </div>
+                                        </div>-->
                                         <h3 class="title">Jane Tiffany</h3>
                                         <p class="description">
                                             Jabrane Properties has just finalised reconstruction of our Master Bedroom. The process from the first day has been incredibly satisfying. The computer-based design process made it so easy to envision what our new bedroom would look like. We love our
@@ -244,9 +244,9 @@
 
                                     </div>
                                     <div class="testimonial">
-                                        <div class="pic">
+                                       <!-- <div class="pic">
                                             <img src="uploads/rev3.png" alt="">
-                                        </div>
+                                        </div> -->
                                         <h3 class="title">Perry Vichards</h3>
                                         <p class="description">
                                             I have used services from Jabrane and Properties a few times now and find they do tremendous work. Last year we had them remodel our main kitchen, and this year they remodeled one of our master bathroom. We really enjoyed working with their project manager,
@@ -256,36 +256,38 @@
 
                                     </div>
                                     <div class="testimonial">
-                                        <div class="pic">
-                                            <img src="uploads/rev1.png" alt="">
+                                        <!--  <div class="pic">
+                                              <img src="uploads/rev5.png" alt="">
+                                          </div> -->
+                                          <h3 class="title">David Pain</h3>
+                                          <p class="description">
+                                              We have had an excellent experience with Jabrane Properties so far. Done with the design phase and we are excited to be moving forward with construction. They are thorough and responsive. They have insightful advice and they did a great job of really
+                                              listening to what we wanted. They guide us through every single step and make an overwhelming process stress-free. We highly recommend!
+                                          </p>
+  
+                                      </div>
+                                       
+                                    <div class="testimonial">
+                                        <!--    <div class="pic">
+                                                <img src="uploads/rev6.png" alt="">
+                                            </div>-->
+                                            <h3 class="title">Cynthia Kennedy</h3>
+                                            <p class="description">
+                                                Exceptional service and final product. They paid great attention to detail and corrected any major and minor issues. Hard to find good contractors nowadays that are so professional and well organized so we're very happy we did.
+                                            </p>
+    
                                         </div>
+                                    <div class="testimonial">
+                                      <!--  <div class="pic">
+                                            <img src="uploads/rev1.png" alt="">
+                                        </div>-->
                                         <h3 class="title">Williams Sean</h3>
                                         <p class="description">
                                             I was confused regarding my home remodeling. These amazing guys appear as angels from nowhere and helped me putting my thoughts into reality.
                                         </p>
 
                                     </div>
-                                    <div class="testimonial">
-                                        <div class="pic">
-                                            <img src="uploads/rev5.png" alt="">
-                                        </div>
-                                        <h3 class="title">David Pain</h3>
-                                        <p class="description">
-                                            We have had an excellent experience with Jabrane Properties so far. Done with the design phase and we are excited to be moving forward with construction. They are thorough and responsive. They have insightful advice and they did a great job of really
-                                            listening to what we wanted. They guide us through every single step and make an overwhelming process stress-free. We highly recommend!
-                                        </p>
-
-                                    </div>
-                                    <div class="testimonial">
-                                        <div class="pic">
-                                            <img src="uploads/rev6.png" alt="">
-                                        </div>
-                                        <h3 class="title">Cynthia Kennedy</h3>
-                                        <p class="description">
-                                            Exceptional service and final product. They paid great attention to detail and corrected any major and minor issues. Hard to find good contractors nowadays that are so professional and well organized so we're very happy we did.
-                                        </p>
-
-                                    </div>
+                                 
                                 </div>
                             </div>
                         </div>
@@ -319,7 +321,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="widget">
-                            <h3 class="check1">Stay up to date on the latest news from Jabrane Properties</h3>
+                            <h3 class="checkProp">Stay up to date on the latest news from Jabrane Properties</h3>
                             <form action="#" class="subscribe">
                                 <input type="email" placeholder="Enter your Email...">
                                 <input type="submit" value="Subscribe">
@@ -436,6 +438,28 @@
                 });
             });
         </script>
+
+<script>
+    $("#submitForm").on('submit',function(event) {
+        event.preventDefault(); // to prevent default page reloading
+        var dataString = $(this).serialize(); // to get the form data
+        
+        $.ajax({
+            type: "POST",
+            url: "sendEmail.php",
+            data: dataString,
+            success: function(data){
+                $('#submitForm')[0].reset(); // to reset form data
+            }
+        }).done(function(data){
+            setTimeout(function () {
+                alert("Form submitted successfully! We'll get back to you soon. Thank you.");
+            }, 2000);
+            //alert("Form submitted successfully! We'll get back to you soon. Thank you."); // This will be called after the ajax executed
+        });
+
+    });
+</script>
 
 
 
