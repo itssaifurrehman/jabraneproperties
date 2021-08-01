@@ -322,8 +322,8 @@
                     <div class="col-md-4">
                         <div class="widget">
                             <h3 class="checkProp">Stay up to date on the latest news from Jabrane Properties</h3>
-                            <form action="#" class="subscribe">
-                                <input type="email" placeholder="Enter your Email...">
+                            <form action="sendEmailSub.php" class="subscribe" method="POST" id="submitFormSub">
+                                <input type="email" name="email" placeholder="Enter your Email...">
                                 <input type="submit" value="Subscribe">
                                 <div class="footerButtonsSocial">
                                     <a href="https://www.facebook.com/Jabrane-Properties-717635585705421/" class="fb" target="_blank" title="Join us on Facebook"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
@@ -454,6 +454,27 @@
         }).done(function(data){
             setTimeout(function () {
                 alert("Form submitted successfully! We'll get back to you soon. Thank you.");
+            }, 2000);
+            //alert("Form submitted successfully! We'll get back to you soon. Thank you."); // This will be called after the ajax executed
+        });
+
+    });
+</script>
+<script>
+    $("#submitFormSub").on('submit',function(event) {
+        event.preventDefault(); // to prevent default page reloading
+        var dataString = $(this).serialize(); // to get the form data
+        
+        $.ajax({
+            type: "POST",
+            url: "sendEmailSub.php",
+            data: dataString,
+            success: function(data){
+                $('#submitFormSub')[0].reset(); // to reset form data
+            }
+        }).done(function(data){
+            setTimeout(function () {
+                alert("Thank you for subscribing to our Newsletter.");
             }, 2000);
             //alert("Form submitted successfully! We'll get back to you soon. Thank you."); // This will be called after the ajax executed
         });
