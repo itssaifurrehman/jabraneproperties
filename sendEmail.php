@@ -5,10 +5,10 @@
   $number = $_POST['number'];
   $address= $_POST['address'];
   $purpose = $_POST['purpose'];
-  $to = "itssaifurrehman@gmail.com";
+  $to = "jabraneproperties@gmail.com";
   $subject = "Email from Jabrane Properties";
   $txt= "Full Name = ".$name. "\r\n  Email = " .$email. "\r\n  Number = " . $number . "\r\n  Address = " . $address . "\r\n  Purpose = " . $purpose . "";
-  $headers = "From: Jabraneproperties@gmail.com" ;
+  $headers = "From: jabraneproperties@gmail.com" ;
 
   mail($to,$subject,$txt,$headers);
 

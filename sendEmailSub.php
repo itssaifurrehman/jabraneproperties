@@ -1,10 +1,10 @@
 <?php
 
   $email= $_POST['email'];
-  $to = "itssaifurrehman@gmail.com";
+  $to = "jabraneproperties@gmail.com";
   $subject = "Email for Newsletter from Jabrane Properties";
-  $txt= "Full Name = ".$email. "";
-  $headers = "From: Jabraneproperties@gmail.com" ;
+  $txt= "Email to subscribe = ".$email. "";
+  $headers = "From: jabraneproperties@gmail.com" ;
 
   mail($to,$subject,$txt,$headers);
 
