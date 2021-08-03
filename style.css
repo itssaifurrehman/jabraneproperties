@@ -1699,7 +1699,7 @@ figure img {
     text-align: end;
 }
 
-@media screen and (max-width: 990px) {
+/*@media screen and (max-width: 990px) {
     .hero .hero-content {
         margin-top: 70px;
         margin-bottom: 50px;
@@ -1707,7 +1707,7 @@ figure img {
         right: 0;
 
     }
-}
+}*/
 
 .hero .hero-content .hero-title {
     font-size: 3.7em;
@@ -2514,7 +2514,7 @@ figure img {
     }
 
     .bigger {
-        font-size: 44px;
+        font-size: 37px;
         font-weight: bold;
     }
 
@@ -2597,8 +2597,8 @@ figure img {
     }
 
     .hero .hero-content .hero-title {
-        font-size: 30px;
-        margin: 30px 0px -50px 0px;
+        font-size: 26px;
+        margin: 45px 0px -41px 16px;
         color: white;
         line-height: 1;
         font-weight: bold;
@@ -2610,20 +2610,18 @@ figure img {
         background: transparent;
         border-radius: 5px;
         color: #7b7a82;
-        position: relative;
+        position: static;
         text-align: left;
-        padding-top: 18%;
-
+        padding-top: 66%;
     }
 
     .hero .hero-half-background {
         position: absolute;
         width: 100%;
-        height: 55%;
-        left: -2px;
-        top: 45px;
-        bottom: 0;
-        background-size: contain;
+        height: 46%;
+        left: 0px;
+        top: 5%;
+        bottom: 0px;
         background-position: center;
     }
 
@@ -2717,17 +2715,22 @@ figure img {
         text-transform: uppercase;
         font-weight: 300;
         padding: 7px 0px 8px 10px !important;
+        margin-bottom: 13px;
+
 
     }
 
     .hero .request-form {
         background: #172E4A;
         padding: 25px 7px 21px 50px;
-        border-radius: 5px;
         display: inline-grid;
         opacity: 1;
-
-    }
+        margin-top: 10%;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+}
 
     .navbarUL {
         background: #EEEEEE;
@@ -2772,5 +2775,14 @@ figure img {
         padding-bottom: 10px;
         float: right;
         margin-right: 3%;
+    }
+    .customTextp {
+        color: grey;
+        font-size: 16px;
+        text-align: justify;
+        padding-right: 8px;
+        font-family: userDefinedFontsSitka;
+        margin-bottom: 30px;
+
     }
 }
